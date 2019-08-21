@@ -24,20 +24,20 @@
 ## Install
 
 ```shell
-npm install form-making -S
+npm install form-develop -S
 ```
 
 ## Quick Start
 
 ``` javascript
-import FormMaking from 'form-making'
+import FormMaking from 'form-develop'
 import 'form-making/dist/FormMaking.css'
 Vue.use(FormMaking)
 
 // or
 import {
   GenerateForm
-} from 'form-making'
+} from 'form-develop'
 import 'form-making/dist/FormMaking.css'
 
 Vue.component(GenerateForm.name, GenerateForm)
@@ -51,7 +51,7 @@ Vue.component(GenerateForm.name, GenerateForm)
 ## 设计器引用
 
 ``` javascript
-import {MakingForm} from 'form-making'
+import {MakingForm} from 'form-develop'
 Vue.component(MakingForm.name, MakingForm)
 ```
 
@@ -84,9 +84,6 @@ Vue.component(MakingForm.name, MakingForm)
 
 
 ## 表单渲染
-
-通过 [在线地址](http://tools.xiaoyaoji.cn/form) 或者引用设计器生成的JSON，用于表单渲染
-![](https://user-gold-cdn.xitu.io/2018/9/27/1661a50b64f77e5f?w=1580&h=1080&f=png&s=162948)
 
 下面就是加载对应的数据用于展示，假设你已经正确加载组件
 
