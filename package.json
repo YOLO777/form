@@ -33,7 +33,7 @@
     "normalize.css": "^8.0.0",
     "qiniu": "^7.2.1",
     "qiniu-js": "^2.5.1",
-    "tinymce": "^4.8.4",
+    "tinymce": "^5.10.7",
     "viewerjs": "^1.2.0",
     "vue": "^2.5.16",
     "vue-router": "^3.0.1",
